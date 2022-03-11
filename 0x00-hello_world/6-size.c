@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry point 
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
@@ -10,9 +10,12 @@ int intType;
 float floatType;
 double doubleType;
 char charType;
-printf("Size of int: %zu bytes\n", sizeof(intType));
-printf("Size of float: &zu bytes\n", sizeof(floatType));
-printf("Size of double: %zu bytes\n", sizeof(doubleType));
-printf("Size of char: %zu bytes\n", sizeof(charType));
+long int longintType;
+long long int longlongintType;
+printf("Size of a char: %zu byte(s)\n", sizeof(charType));
+printf("Size of an int: %zu byte(s)\n", sizeof(intType));
+printf("Size of a long int: %zu byte(s)\n", sizeof(longintType));
+printf("Size of long long int: %zu byte(s)\n", sizeof(longlongintType));
+printf("Size of a float: %zu byte(s)", sizeof(floatType));
 return (0);
 }
