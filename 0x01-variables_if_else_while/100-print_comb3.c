@@ -7,7 +7,7 @@
 int main(void)
 {
 int x, y = 1;
-for (x = 0; x < 9; x++)
+for (x = 0; x <= 8; x++)
 {
 for (; y <= 9; y++)
 {
