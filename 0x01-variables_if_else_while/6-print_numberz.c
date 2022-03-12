@@ -7,11 +7,9 @@
 int main(void)
 {
 int x;
-int y;
-for (y = 0; y <= 9; y++)
+for (x = 0; x <= 9; x++)
 {
-x = y;
-putchar (x);
+putchar (x + '0');
 }
 putchar('\n');
 return (0);
