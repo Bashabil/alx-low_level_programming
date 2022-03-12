@@ -4,12 +4,13 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int main()
 {
 int x = 'A';
 while (x <= 'Z')
 {
 x = tolower(x);
-putchar("%d\n", x);
+putchar(x);
 }
+return (0);
 }
