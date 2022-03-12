@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-  int x, y = 1;
+  int x, y;
   for (x = 0; x <= 8; x++)
   {
-    for (y <= 9; y++)
+    for (y = x + 1; y <= 9; y++)
       {
 	putchar(x + '0');
 	putchar(y + '0');
@@ -23,7 +23,7 @@ int main(void)
 	  }
 	putchar(' ');
       }
-    y = y + 1;
+    ;
   }
 putchar('\n');
 return (0);
