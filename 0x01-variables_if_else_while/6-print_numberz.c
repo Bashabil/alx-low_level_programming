@@ -9,7 +9,7 @@ int main(void)
 int x = 1;
 while (x <= 9)
 {
-putchar(x);
+putchar(int x);
 x++;
 }
 putchar('\n');
