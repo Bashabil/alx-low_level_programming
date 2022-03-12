@@ -6,11 +6,12 @@
  */
 int main()
 {
-int x = 'A';
-while (x <= 'Z')
+int x = 'a';
+while (x <= 'z')
 {
-x = tolower(x);
 putchar(x);
+x ++;
 }
+putchar("\n");
 return (0);
 }
