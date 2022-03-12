@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-int x = 0, y = 1;
-while (x <= 8)
+  int x, y;
+  for (x = 0; x <= 8; x++)
   {
-    for (; y <= 9; y++)
+    for (y = 1; y <= 9; y++)
       {
 	putchar(x + '0');
 	putchar(y + '0');
@@ -23,7 +23,6 @@ while (x <= 8)
 	  }
 	putchar(' ');
       }
-    x++;
     y = y + 1;
   }
 putchar('\n');
