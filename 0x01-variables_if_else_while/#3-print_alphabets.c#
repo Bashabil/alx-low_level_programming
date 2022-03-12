@@ -6,16 +6,6 @@
  */
 int main(void)
 {
-char y = 'A';
-char x = 'a';
-while (x <= 'z')
-{
-putchar(x);
-}
-while (y <= 'Z')
-{
-putchar(y);
-}
-putchar('\n');
+  for (
 return (0);
 }
