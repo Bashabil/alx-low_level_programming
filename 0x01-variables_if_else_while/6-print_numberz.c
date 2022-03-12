@@ -7,7 +7,8 @@
 int main(void)
 {
 int x;
-for (int y = 0; y <= 9; y++)
+int y;
+for (y = 0; y <= 9; y++)
 {
 x = y;
 putchar (x);
