@@ -5,8 +5,13 @@
  *
  * Return: Always 0 (success)
  */
-int main(void)
+void print_alphabet(void) /* This is the function used */
 {
-print_alphabet();
-return (0);
+char x;
+for (x = 'a'; x <= 'z'; x++)
+{
+_putchar(x);
+}
+_putchar('\n');
+return;
 }
