@@ -9,6 +9,8 @@
  */
 int _abs(int n) /* This is the function used */
 {
-  _putchar(abs(n), 48);
+int x;
+x = abs (n);
+_putchar();
 return (0);
 }
