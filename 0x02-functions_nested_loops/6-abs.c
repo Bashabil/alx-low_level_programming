@@ -7,10 +7,8 @@
  * is in lower case using prototype int _abs(int)
  * Return: Always 0 (Success)
  */
-int _abs(int n) /* This is the function used */
+int _abs(int) /* This is the function used */
 {
-int x;
-x = abs (n);
-_putchar(x%10 + '0');
+_putchar(abs(int) + '0');
 return (0);
 }
