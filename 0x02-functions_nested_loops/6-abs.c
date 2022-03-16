@@ -11,6 +11,6 @@ int _abs(int n) /* This is the function used */
 {
 int x;
 x = abs (n);
-_putchar();
+_putchar(x);
 return (0);
 }
