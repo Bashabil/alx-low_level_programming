@@ -9,6 +9,6 @@
  */
 int _abs(int c) /* This is the function used */
 {
-_putchar(abs(c) + '0');
+_putchar(abs(c));
 return (0);
 }
