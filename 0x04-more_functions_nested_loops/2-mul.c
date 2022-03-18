@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * mul - Entry Point
@@ -13,8 +12,3 @@ int x;
 x = a * b;
 return (x);
 }
-/**int main(void)
- * {
- * printf("print output %d\n", mul(20, 20));
- * }
- */
