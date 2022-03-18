@@ -11,17 +11,10 @@ int mul(int a, int b) /* This is where the function begins */
 {
 int x;
 x = a * b;
-if (x < 0)
-{
-_putchar('-');
-_putchar((char)(x / 10 + '0'));
-_putchar((char)(x % 10 + '0'));
+return (x);
 }
-else
-{
-_putchar(x / 10 + '0');
-_putchar(x % 10 + '0');
-}
-_putchar('\n')
-return (0);
-}
+/**int main(void)
+ * {
+ * printf("print output %d\n", mul(20, 20));
+ * }
+ */
