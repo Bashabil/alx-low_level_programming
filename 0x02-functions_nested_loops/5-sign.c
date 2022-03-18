@@ -5,6 +5,7 @@
  * print_sign - entry point
  * Description: it checks if the parameter int n entered
  * is in lower case using prototype int print_sign(int n
+ * @n: number
  * Return: Always 0 (Success)
  */
 int print_sign(int n) /* This is the function used */

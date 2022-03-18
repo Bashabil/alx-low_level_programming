@@ -1,14 +1,24 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
+
 /**
- * _abs - entry point
- * Description: it checks if the parameter entered
- * is in lower case using prototype int _abs(int)
- * Return: Always 0 (Success)
+ * _abs - computes the absolute value of an integer
+ * @n: n is an integer
+ *
+ * Return: integer
  */
-int _abs(int c) /* This is the function used */
+
+int _abs(int n)
 {
-_putchar(abs(c));
-return (0);
+if (n > 0)
+{
+return (n);
+}
+else if (n < 0)
+{
+return (-n);
+}
+else
+{
+return (n);
+}
 }

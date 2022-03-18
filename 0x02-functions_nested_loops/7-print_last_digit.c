@@ -1,14 +1,22 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
+
 /**
- * print_last_digit - entry point
- * Description: it checks if the parameter entered
- * is in lower case using prototype int _abs(int)
- * Return: Always 0 (Success)
+ * print_last_digit - prints the last digit of a number
+ * @n: n is an integer
+ *
+ * Description: prints the last digit of a number
+ *
+ * Return: integer
  */
-int print_last_digit(int c) /* This is the function used */
+
+int print_last_digit(int n)
 {
-_putchar(abs(c));
-return (0);
+int last = n % 10;
+
+if (n < 0)
+last = last * -1;
+
+_putchar(last + '0');
+
+return (last);
 }
