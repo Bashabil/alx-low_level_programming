@@ -1,14 +1,32 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
+
 /**
- * print_to_98 - entry point
- * Description: it checks if the parameter entered
- * is in lower case using prototype int _abs(int)
- * Return: Always 0 (Success)
+ * print_to_98 - prints numbers to 98
+ * @n: starting integer
+ *
+ * Description: prints all natural number from n - 98
+ *
+ * Return: void
  */
-void print_to_98(int n) /* This is the function used */
+
+void print_to_98(int n)
 {
-_putchar(abs(c));
-return;
+if (n < 98)
+{
+while (n < 98)
+{
+printf("%d, ", n);
+n++;
+}
+}
+else if (n > 98)
+{
+while (n > 98)
+{
+printf("%d, ", n);
+n--;
+}
+}
+printf("98\n");
 }
