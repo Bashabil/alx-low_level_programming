@@ -9,14 +9,14 @@
  */
 int _isupper(int c) /* This is where the function _isupper(int c) begins */
 {
-  int x;
-  x = isupper(c);
-  if (x == 1)
-    {
-      return (1);
-    }
-  else
-    {
-      return (0);
-    }
+int x;
+x = isupper(c);
+if (isupper(char c))
+{
+return (1);
+}
+else
+{
+return (0);
+}
 }
