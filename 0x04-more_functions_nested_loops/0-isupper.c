@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-#include <stdlib.h>
+#include <ctype.h>
 /**
  * _isupper - Entry Point
  * Description: Check if the alphabet entered is an uppercase alphabets
@@ -9,7 +9,7 @@
  */
 int _isupper(int c) /* This is where the function _isupper(int c) begins */
 {
-  char x;
+  int x;
   x = isupper(c);
   if (x == 1)
     {
