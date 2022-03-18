@@ -1,14 +1,20 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
+
 /**
- * add - entry point
- * Description: it checks if the parameter entered
- * is in lower case using prototype int _abs(int)
- * Return: Always 0 (Success)
+ * add - adds two integers
+ * @n1: integer 1
+ * @n2: integer 2
+ *
+ * Description: give two integers, returns sum
+ *
+ * Return: sum
  */
-int add(int, int) /* This is the function used */
+
+int add(int n1, int n2)
 {
-_putchar(abs(c));
-return (0);
+int sum;
+
+sum = n1 + n2;
+
+return (sum);
 }
