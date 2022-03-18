@@ -5,6 +5,7 @@
  * _islower - entry point
  * Description: it checks if the parameter entered
  * is in lower case using prototype int _islower(int c
+ * @c: number
  * Return: Always 0 (Success)
  */
 int _islower(int c) /* This is the function used */
