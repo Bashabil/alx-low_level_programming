@@ -9,9 +9,9 @@
  */
 int _isupper(int c) /* This is where the function _isupper(int c) begins */
 {
-int x;
-x = isupper(c);
-if (isupper(char c))
+char x;
+x = c + '0';
+if (isupper(x))
 {
 return (1);
 }
