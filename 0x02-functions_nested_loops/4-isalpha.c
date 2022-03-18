@@ -4,6 +4,7 @@
 /**
  * _isalpha - entry point
  * Description: it checks if the parameter entered
+ * @c: number
  * is in lower case using prototype int _isalpha(int c
  * Return: Always 0 (Success)
  */
