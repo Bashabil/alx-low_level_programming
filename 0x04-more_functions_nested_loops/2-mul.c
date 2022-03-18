@@ -11,6 +11,16 @@ int mul(int a, int b) /* This is where the function begins */
 {
 int x;
 x = a * b;
-_putchar(x);
+if (x < 0)
+{
+_putchar('-');
+_putchar((char)(x / 10 + '0'));
+_putchar((char)(x % 10 + '0'));
+}
+else
+{
+_putchar(x / 10 + '0');
+_putchar(x % 10 + '0');
+}
 return (0);
 }
